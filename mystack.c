@@ -39,6 +39,7 @@ void pop()
     node_stack_t *temp = head_stack;
     head_stack = head_stack->next;
     size--;
+    free(temp->txt); 
     free(temp);
 }
 
