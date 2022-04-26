@@ -1,0 +1,5 @@
+main
+main.o
+memory.o
+test
+mystack.o
