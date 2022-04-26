@@ -10,3 +10,7 @@ A simple malloc and free implementation that uses a link list to manage memory.
    ```console
    $ ./test
    ```
+3. Run test.
+   ```console
+   $ make valgrind
+   ```
